@@ -88,7 +88,7 @@ function getInternData() {
     name: "schoolName",
     message: "What is the name of the interns school?"
   }]).then(function(intern) {
-    employees.push(new Intern(intern.name, intern.id, intern.email, intern.school));
+    employees.push(new Intern(intern.name, intern.id, intern.email, intern.schoolName));
     return getTeamData();
   });
 }
