@@ -8,7 +8,7 @@ The user starts out at the command line after the initial install.
 
 When the program is run, a series of questions are presented to the user starting out with the Manager of the team and their info. Then the user puts in how many other employees and their types until they are satisfied with their team. 
 
-![App Finish](./Assets/app-start.jpg)
+![App Finish](./Assets/app-finish.jpg)
 
 Then the program creates a webpage with cards that contain all the info for the individual employees.
 
