@@ -1,6 +1,18 @@
 # Template Engine - Employee Summary
 
-This is a template engine.
+This is a template engine that creates a web page showcasing a team that the user creates.
+
+The user starts out at the command line after the initial install. 
+
+![App Start](./Assets/app-start.jpg)
+
+When the program is run, a series of questions are presented to the user starting out with the Manager of the team and their info. Then the user puts in how many other employees and their types until they are satisfied with their team. 
+
+![App Finish](./Assets/app-start.jpg)
+
+Then the program creates a webpage with cards that contain all the info for the individual employees.
+
+![App Web Page](./Assets/app-html.jpg)
 
 Assignment details below:
 
