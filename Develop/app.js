@@ -103,6 +103,7 @@ getManagerData().then(function(manager) {
 }).then(() => {
   return render(employees);
 }).then((html) => {
+    console.log(html);
   fs.writeFile("./output/team.html", html, function(err) {
     if (err) console.error(err);
   })
